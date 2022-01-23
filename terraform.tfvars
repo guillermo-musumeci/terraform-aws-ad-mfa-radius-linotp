@@ -1,6 +1,6 @@
 # Application Definition 
-app_name        = "kopicloud-ad" # Do NOT enter any spaces
-app_environment = "dev" # Dev, Test, Staging, Prod, etc
+app_name        = "kopicloud" # Do NOT enter any spaces
+app_environment = "test" # Dev, Test, Staging, Prod, etc
 
 # AWS Settings
 aws_region        = "eu-west-1"
@@ -27,9 +27,9 @@ radius_server_name      = "kopi-radius1"
 
 # AWS Managed AD
 directory_name     = "kopicloud.local"
-directory_password = "Y3ll0wS3cr3tP@ssw0rd"
+directory_password = "Sw33tCh0c0l@t3"
 directory_edition  = "Standard"
   
 # MariaDB Database
-db_user     = "dbrootadmin"
-db_password = "Gr33nSup3rS3cr3t"
+db_user     = "kopirootadmin"
+db_password = "H0tGr33nP3pp3r"
